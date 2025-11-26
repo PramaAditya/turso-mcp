@@ -1,0 +1,44 @@
+{
+  "name": "@prama13/turso-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for readonly Turso/libSQL database queries",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "turso-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "turso",
+    "libsql",
+    "sqlite",
+    "database",
+    "model-context-protocol"
+  ],
+  "author": "prama13",
+  "license": "MIT",
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prama13/turso-mcp"
+  }
+}
