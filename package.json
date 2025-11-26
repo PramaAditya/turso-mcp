@@ -1,6 +1,6 @@
 {
   "name": "@prama13/turso-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for readonly Turso/libSQL database queries",
   "type": "module",
   "main": "dist/index.js",
@@ -39,6 +39,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/prama13/turso-mcp"
-  }
+    "url": "https://github.com/PramaAditya/turso-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PramaAditya/turso-mcp/issues"
+  },
+  "homepage": "https://github.com/PramaAditya/turso-mcp#readme"
 }

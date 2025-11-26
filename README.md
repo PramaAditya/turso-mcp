@@ -122,7 +122,7 @@ This server implements multiple layers of security to ensure read-only access:
 
 ```bash
 # Clone the repository
-git clone https://github.com/prama13/turso-mcp
+git clone https://github.com/PramaAditya/turso-mcp.git
 cd turso-mcp
 
 # Install dependencies
